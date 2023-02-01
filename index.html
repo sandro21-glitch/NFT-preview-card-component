@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <title>Frontend Mentor | NFT preview card component</title>
+
+</head>
+<body>
+
+    <!-- global container -->
+    <div class="min-h-screen flex items-center justify-center bg-mainBG font-outfit">
+        <!-- content container -->
+        <div class="flex flex-col items-left justify-center bg-cardBG w-72 p-5 rounded-lg">
+          <!-- content -->
+          <img src="/images/image-equilibrium.jpg" alt="equilibrium" class="rounded-lg mb-3">
+          <h1 class="text-lg text-white font-bold mb-3">Equilibrium #3429</h1>
+          <p class="text-Softblue text-[.9rem] mb-3">Our Equilibrium collection promotes balance and calm.</p>
+          <!-- eth row -->
+          <div class="flex items-center justify-between w-full">
+            <div class="flex items-center justify-center">
+              <img src="/images/icon-ethereum.svg" alt="eth" class="w-[.7rem]"/>
+              <h6 class="text-sm text-CyanCl font-bold ml-2">0.041 ETH</h6>
+            </div>
+            <div class="flex items-center justify-center">
+              <img src="/images/icon-clock.svg" alt="clock" class="w-[1rem]" />
+              <h6 class="text-sm text-Softblue font-normal ml-2">3 days left</h6>
+            </div>
+          </div>
+          <!-- line -->
+          <div class="w-full bg-line h-[.1rem] my-5"></div>
+          <!-- creator -->
+          <div class="flex items-center">
+            <img src="/images/image-avatar.png" alt="avatar" class="w-8 border rounded-full">
+            <h6 class="text-sm text-Softblue font-normal ml-3">Creation of <span class="text-white cursor-pointer">Jules Wyvern</span></h6>
+          </div>
+        </div>
+    </div>
+
+
+  <!-- 
+
+  
+
+  
+  
+  
+   
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+</html>
